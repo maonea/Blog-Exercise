@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #FF4B25;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blogtitle {
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+}
+
+#blogname {
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px white;
+    border-style: dashed solid;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.article {
+    width: 60%;
+    padding: 3em;
+}
+
+.photograph {
+    max-width: 100%;
+}
+
+.sidebar {
+    width: 40%;
+    padding: 1em 3em 1em 3em;
+    border-left: 2px groove black;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.relatedarticle {
+    width: 100%;
+    padding: 1em;
+    border-bottom: 1px groove black;
+}
+
+.relatedarticle img {
+    width: 60%;
+}
+
+.artimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.artdescription {
+    width: 40%;
+    padding: 10px;
+}
+
+.comment {
+    width: 60%;
+    height: 300px;
+    padding: 3em;
+}
+
+textarea {
+    width: 90%;
+}
